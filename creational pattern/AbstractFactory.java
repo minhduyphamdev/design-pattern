@@ -81,8 +81,8 @@ public class AbstractFactory {
     checkbox1.click();
 
     GuiFactory gui1 = abstractFactory.new WindowsFactory();
-     Button button2 = gui.createButton();
-    Checkbox checkbox2 = gui.createCheckbox();
+    Button button2 = gui1.createButton();
+    Checkbox checkbox2 = gui1.createCheckbox();
     button2.draw();
     checkbox2.click();
 
